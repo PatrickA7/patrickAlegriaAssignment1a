@@ -1,0 +1,106 @@
+/*-------------------
+Style Sheet for {Project name and url}
+
+author: {name}
+email: {email}
+website: {portfolio}
+---------------------*/
+
+/*
+	Vendor imports (libs etc)
+*/
+@import 'vendor/normalize.css';
+@import 'vendor/browserupgrade.css';
+
+/*
+	Our imports
+*/
+@import 'lib/nav.css';
+@import 'lib/card.css';
+
+h1, h2, nav, p, ul, li {
+    font-family: 'Raleway', sans-serif;
+}
+/* Homepage styling */
+.homeTitle {
+    text-align: center;
+    background-image: url(image/homeBackground.jpg);
+    background-size: cover;
+    padding-bottom: 50%;
+    padding-top: 5%;
+    margin-top: 50px;
+    font-size: 5em;
+    color: black;
+}
+
+.homeHeading {
+    text-align: center;
+    font-size: 3em;
+}
+
+.textIntro {
+    font-size: 250%;
+    margin: 100px;
+}
+/* Main content styling*/
+.mainBody {
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.mainBody p, ul {
+    font-size: 125%;
+}
+
+.subheading {
+    background-color: #1856ca;
+    color: white;
+    padding: 20px;
+    clear: left;
+}
+
+.footnotes {
+    background-color: #1856ca;
+    color: white;
+    padding: 20px;
+}
+
+p > a.footerLink {
+    color: white;
+}
+/* typography.html specific styling */
+.placeholder{
+    float: right;
+}
+
+#testLink {
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table {
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 15px;
+}
+/* Responsive code */
+@media screen and (max-width: 768px) {
+    .homeTitle {
+        font-size: 2em;
+        margin-top: 80px;
+    }
+    
+    .textIntro {
+        margin: 15px;
+        font-size: 150%
+    }
+}
+
